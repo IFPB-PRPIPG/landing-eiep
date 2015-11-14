@@ -62,9 +62,7 @@ function createMarker(latlng,html){
 
   app.monitor = function() {
     var welcome = document.getElementsByClassName('welcome-container');
-    var events = document.getElementsByClassName('events-container');
     app.resize(welcome[0]);
-    app.resize(events[0]);
   }
 
   app.resize = function(object) {
